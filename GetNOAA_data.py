@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 ### Bot ###
-Getting out GRGLMPROD NOAA date utilizing
-a list of date and time
+Getting out GRGLMPROD NOAA date utilizing a list of date and time
 Sattelite: G16
 Fix the names and variables to you use
 @author: TalDoMorgan
