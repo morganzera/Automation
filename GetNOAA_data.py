@@ -3,7 +3,7 @@
 ### Bot ###
 Getting out GRGLMPROD NOAA date utilizing a list of date and time
 Sattelite: G16
-Fix the names and variables to you use
+Fix the names and variables for your use
 @author: TalDoMorgan
 """
 
@@ -18,7 +18,7 @@ for i in range (QUANTITY_OF_THE_LINES_OF_DATES):
 # Date of the event
     date = str(table_date['D'][i])
     date = date.replace(" 00:00:00","") # if your date are in format datetime
-#implementar hora do inicio e hora do fim
+# Implement the hour of the start and.
     hora = str(table_date['H'][i])
 
     path = Service(r"C:\Users\pc\Documents\PIBIC_PY\geckodriver.exe") # install the driver following the selenium's guide
